@@ -32,7 +32,25 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.links {
+  list-style: none;
+}
+
+.box span {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: fit-content;
 }
