@@ -146,7 +146,7 @@ const App = () => {
     <>
       <div>
         <h3>Check filtered array in CONSOLE</h3>
-        <p>Based on ExpertId</p>
+        <p>Based on ExpertId of the Experts array :</p>
         {experts.map((item) => {
           return (
             <li>{item.ExpertId}</li>
