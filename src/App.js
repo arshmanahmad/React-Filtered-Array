@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const App = () => {
 
 
-  const [experts, setExperts] = useState([
+  const experts = [
     {
       ExpertId: 1,
       ExpertName: "ishtiaq",
@@ -108,7 +108,7 @@ const App = () => {
       StartTime: null,
       EndTime: null
     }
-  ])
+  ];
   const expertsInCase = [
     {
       CaseId: 5,
